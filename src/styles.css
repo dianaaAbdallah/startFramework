@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/Roboto/Roboto-Regular.ttf');
+  }
+  
+.bg_primary{
+  background:#2C3E50;
+  font-family: "Roboto";
+
+}
+.bg_footer{
+  background:#0f1821;
+}
+p{
+  font-size: 20px;
+  font-weight: 400;
+}
+h3{
+  font-weight: 500;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+
+}
+.secondary_bg
+{
+background:#1ABC9C;
+}
+.line::after{
+  content: "";
+  position:absolute;
+  border: 1px solid white;
+  width: 100px;
+  left: 52%;
+  bottom: -30px;
+}
+.line::before{
+  content: "";
+  position:absolute;
+  border: 1px solid white;
+  width: 100px;
+  right: 52%;
+  bottom: -30px;
+}
+.blackLine::after{
+  content: "";
+  position:absolute;
+  border: 1px solid #2C3E50;
+  width: 100px;
+  left: 52%;
+  bottom: -30px;
+}
+.blackLine::before{
+  content: "";
+  position:absolute;
+  border: 1px solid #2C3E50;
+  width: 100px;
+  right: 52%;
+  bottom: -30px;
+}
